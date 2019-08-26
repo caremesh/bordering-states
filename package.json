@@ -1,0 +1,17 @@
+{
+  "name": "bordering-states",
+  "version": "0.0.2",
+  "description": "A module that returns the states that border each other.",
+  "main": "index.js",
+  "repository": "https://github.com/caremesh/bordering-states.git",
+  "author": "tbowler <tbowler@caremesh.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  },
+  "scripts": {
+    "test": "mocha tests/*.test.js"
+  }
+}
