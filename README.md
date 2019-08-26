@@ -7,10 +7,18 @@ npm install bordering-states
 ```
 
 # Usage
+
+## Basic
 ```
 const borderingStates = require('bordering-states');
-borderingStates.get('AL');
+borderingStates('AL');
 ```
+## Include original state
+```
+const borderingStates = require('bordering-states');
+borderingStates('AL', {inclusive: true});
+```
+
 
 ## Returns
 ```
